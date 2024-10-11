@@ -1,0 +1,656 @@
+VARIABLE NAME,FIELD TYPE,POS.,VARIABLE DESCRIPTION,File Name
+SYSTEM,Numeric,0,System Code,D_INST.TXT
+DIST,Numeric,0,District Code,D_INST.TXT
+ASSOC,Numeric,0,Association Code,D_INST.TXT
+MONTH,Numeric,0,Month of Report,D_INST.TXT
+YEAR,Numeric,0,Year of Report,D_INST.TXT
+UNINUM,Numeric,0,"System, district, and Association codes concatenated",D_INST.TXT
+SHORTNAME,Alphanum.,0,Institution short name,D_INST.TXT
+MAIL_ADDR,Alphanum.,0,Mailing address,D_INST.TXT
+STREET_ADDR,Alphanum.,0,Street address,D_INST.TXT
+CITY,Alphanum.,0,City name,D_INST.TXT
+STATE,Alphanum.,0,State name,D_INST.TXT
+ZIP,Alphanum.,0,Zip code,D_INST.TXT
+DIST,Numeric,0,District Code,D_RC.TXT
+ASSOC,Numeric,0,Association Code,D_RC.TXT
+MONTH,Numeric,0,Month of Report,D_RC.TXT
+YEAR,Numeric,0,Year of Report,D_RC.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RC.TXT
+CASH,Numeric,0,Cash,D_RC.TXT
+ACTREC,Numeric,0,Accounts Receivable,D_RC.TXT
+ACRLNS,Numeric,0,Accrual Loans and Leases net of unearned income and unapplied loan payments,D_RC.TXT
+NTRECOFCI,Numeric,0,"Loans, notes, sales, contracts, and leases: Notes receivable from other FCS institutions",D_RC.TXT
+ONTREC,Numeric,0,"Loans, notes, sales, contracts, and leases: Other notes receivable",D_RC.TXT
+ACRSCON,Numeric,0,"Loans, notes, sales, contracts, and leases: Accrual Sales Contracts",D_RC.TXT
+NONACR,Numeric,0,"Loans, notes, sales, contracts, and leases: Nonaccrual Loans",D_RC.TXT
+ALLNLOSS,Numeric,0,"Loans, notes, sales, contracts, and leases: Allowance for credit losses on loans, etc.",D_RC.TXT
+NETLOANS,Numeric,0,"Loans, notes, sales, contracts, and leases: Net Loans",D_RC.TXT
+AIRLOANS,Numeric,0,Accrued Interest Receivable on Loans and Leases,D_RC.TXT
+AIRNTRECOFCI,Numeric,0,Accrued Interest Receivable on Notes receivable from other FCS Institutions,D_RC.TXT
+AIRONTREC,Numeric,0,Accrued Interest Receivable on Other Notes receivable,D_RC.TXT
+AIRSCON,Numeric,0,Accrued Interest Receivable on Sales Contracts,D_RC.TXT
+AIRMKTIN,Numeric,0,Accrued Interest Receivable on Securities,D_RC.TXT
+AIREC,Numeric,0,Total Accrued Interest Receivable,D_RC.TXT
+NAQPROP,Numeric,0,Other Property Owned ,D_RC.TXT
+FIXASSET,Numeric,0,Premises and Other Fixed Assets,D_RC.TXT
+OASSETS,Numeric,0,Other Assets ,D_RC.TXT
+ASSETS,Numeric,0,Total Assets   ,D_RC.TXT
+SYSNTBDSOS,Numeric,0,Interest bearing liabilities: Systemwide notes and bonds outstanding,D_RC.TXT
+NTPAYOFCI,Numeric,0,Interest bearing liabilities: Notes payable to other FCS,D_RC.TXT
+OINTBEARDT,Numeric,0,Interest bearing liabilities: Other interest-bearing debt,D_RC.TXT
+ACTPAY,Numeric,0,Accounts Payable,D_RC.TXT
+AIPSYSNTBDSOS,Numeric,0,Accrued interest payable on: Systemwide notes and bonds outstanding,D_RC.TXT
+AIPNTPAYOFCI,Numeric,0,Accrued interest payable on: Notes payable to other FCS institutions,D_RC.TXT
+AIPOINTBEARDT,Numeric,0,Accrued Interest Payable on Other interest-bearing debt,D_RC.TXT
+AIPAY,Numeric,0,Total Accrued Interest Payable ,D_RC.TXT
+OLIABS,Numeric,0,Other Liabilities    ,D_RC.TXT
+LIABS,Numeric,0,Total Liabilities ,D_RC.TXT
+NETWRTH,Numeric,0,Total Net Worth,D_RC.TXT
+TOTLICAP,Numeric,0,Total Liabilities and Net Worth,D_RC.TXT
+ACNOCOMINC,Numeric,0,Accumulated other comprehensive income (net),D_RC.TXT
+LNADJFVAL,Numeric,0,"Loans, notes, sales, contracts, and leases: Loan adjustment for fair value",D_RC.TXT
+DTADJFVAL,Numeric,0,Interest bearing liabilities: Debt adjustment for fair value,D_RC.TXT
+TOTINTBEARLIAB,Numeric,0,Interest bearing liabilities: Total interest bearing liabilities,D_RC.TXT
+AIRDERIVATIVE,Numeric,0,Accrued interest receivable: Derivatives,D_RC.TXT
+IBLSUBNOTEBOND,Numeric,0,Interest bearing liabilities:  Subordinated notes and bonds,D_RC.TXT
+AIPSUBNOTEBOND,Numeric,0,Accrued interest payable on:  Subordinated notes and bonds,D_RC.TXT
+AIPDERIVATIVE,Numeric,0,Accrued interest payable on: Derivatives,D_RC.TXT
+LoanLeaseHeld,Numeric,0,Loans and leases held for sale,D_RC.TXT
+CreditLossReserve,Numeric,0,Reserve for credit losses on off-balance sheet exposures,D_RC.TXT
+TERMPERFSTK,Numeric,0,Interest bearing liabilities: Limited-life (term) preferred stock,D_RC.TXT
+AccrdIntPayTermPrefStk,Numeric,0,Accrued interest payable on: Limited-life (term) preferred stock,D_RC.TXT
+CapStock,Numeric,0,Capital stock,D_RC.TXT
+PerpetualPrefStk,Numeric,0,Perpetual Preferred stock,D_RC.TXT
+PAIDIN,Numeric,0,Paid-in capital,D_RC.TXT
+AllocSurplus,Numeric,0,Allocated Surplus,D_RC.TXT
+UNRETERN,Numeric,0,Unallocated retained earnings,D_RC.TXT
+TotInvDebtSecurities,Numeric,0,"Debt securities, net of allowance for credit losses ",D_RC.TXT
+TotInvEquityFCSI,Numeric,0,Equity investments in System institutions  and Farmer Mac,D_RC.TXT
+TotInvEquityNonFCSI,Numeric,0,Equity investments in non-System institutions,D_RC.TXT
+TotInvestments,Numeric,0,Total Investments,D_RC.TXT
+SYSTEM,Numeric,0,System Code    ,D_RC1.TXT
+DIST,Numeric,0,District Code     ,D_RC1.TXT
+ASSOC,Numeric,0,Association Code,D_RC1.TXT
+MONTH,Numeric,0,Month of Report,D_RC1.TXT
+YEAR,Numeric,0,Year of Report,D_RC1.TXT
+UNINUM,Numeric,0,"System, District, and association codes concatenated",D_RC1.TXT
+TYPRE,Numeric,0,Loans - Production agriculture Real  estate mortgages,D_RC1.TXT
+TYPPROINT,Numeric,0,Loans - Production agriculture Production and intermediate term,D_RC1.TXT
+TYPCOOP,Numeric,0,Loans - Agibusiness - Loans to cooperatives,D_RC1.TXT
+TYPPROCMKT,Numeric,0,Loans - Agibusiness - Processing and Marketing,D_RC1.TXT
+TYPFARMREL,Numeric,0,Loans - Agibusiness - Farm related business,D_RC1.TXT
+TYPCOMM,Numeric,0,Loans - Communications,D_RC1.TXT
+TYPENERG,Numeric,0,Loans - Energy,D_RC1.TXT
+TYPWATW,Numeric,0,Loans - Water/waste disposal,D_RC1.TXT
+TYPRURRE,Numeric,0,Loans - Rural residence real estate,D_RC1.TXT
+TYPINTNL,Numeric,0,Loans - International,D_RC1.TXT
+TYPLESREC,Numeric,0,Loans - Lease receivables,D_RC1.TXT
+DLNASSOC,Numeric,0,Direct loans to associations ,D_RC1.TXT
+OFIAMTLN,Numeric,0,Discounted loans to OFIs,D_RC1.TXT
+TYPTOTAL,Numeric,0,Total,D_RC1.TXT
+FINLEASES,Numeric,0,Finance leases,D_RC1.TXT
+OPLEASES,Numeric,0,Operating receivables leases,D_RC1.TXT
+OPLEASESASST,Numeric,0,Operating assets leases,D_RC1.TXT
+LNSYN,Numeric,0,Loan syndications to eligible borrowers (excluding similiar entity transactions),D_RC1.TXT
+GUARFED,Numeric,0,Guarantees: Federal,D_RC1.TXT
+GUARSTATLOC,Numeric,0,Guarantees: State and local,D_RC1.TXT
+GUARFAMC,Numeric,0,Guarantees: Farmer Mac,D_RC1.TXT
+GUAROTHER,Numeric,0,Guarantees: Other,D_RC1.TXT
+OFINUM,Numeric,0,Number of Other Financial Institutions  (OFIs),D_RC1.TXT
+OFINUMLN,Numeric,0,Number of loans to OFIs,D_RC1.TXT
+LSANUMOS,Numeric,0,Association loans outsite its chartered territory: Number of loans outstanding,D_RC1.TXT
+LSANUMNEW,Numeric,0,Association loans outsite its chartered territory: Number of loans made,D_RC1.TXT
+LSAAMTOS,Numeric,0,Association loans outsite its chartered territory: Amount of loans outstanding,D_RC1.TXT
+LSAAMTNEW,Numeric,0,Association loans outsite its chartered territory: Amount of loans made,D_RC1.TXT
+AMTLNBKRUPTCY,Numeric,0,Total amount of loans in bankruptcy,D_RC1.TXT
+AMTLNFORECLOSUR,Numeric,0,Total amount of loans in foreclosure,D_RC1.TXT
+TAMTBANKFORE,Numeric,0,Total amount of loans in both  bankruptcy and foreclosure,D_RC1.TXT
+FCIBONDS,Numeric,0,Farm Credit investment bonds  outstanding,D_RC1.TXT
+INVFARMNOTE,Numeric,0,Investments in farmers' notes,D_RC1.TXT
+NPDIRLNTBK,Numeric,0,Notes payable/direct loan to district  bank,D_RC1.TXT
+FCSICPREMPAY,Numeric,0,Farm Credit System Insurance  Corporation premium payable,D_RC1.TXT
+TYPOTH,Numeric,0,Other loans,D_RC1.TXT
+LMPRIN90,Numeric,0,Deprecated				 ,D_RC1.TXT
+LMAMT,Numeric,0,Deprecated,D_RC1.TXT
+LMNO,Numeric,0,Deprecated,D_RC1.TXT
+TYPPROCMKT12,Numeric,0,Processing and Marketing Loans: Loans made under 613.3010(a)(1) and (a)(2),D_RC1.TXT
+TYPPROCMKT3,Numeric,0,Processing and Marketing Loans:  Loans made under 613.3010(a)(3),D_RC1.TXT
+TYPPROCMKT4,Numeric,0,Processing and Marketing Loans:  Loans made under 613.3010(a)(4),D_RC1.TXT
+TYPPROCMKT5,Numeric,0,Processing and Marketing Loans:  Loans made under 613.3010(a)(5),D_RC1.TXT
+TOP10LOANS,Numeric,0,Aggregate amount of institution’s                                   10 largest loan commitments,D_RC1.TXT
+NUMLOANSFRMFDIC,Numeric,0,Number of loans outstanding pur chased from the FDIC,D_RC1.TXT
+AMTLOANSFRMFDIC,Numeric,0,Amount of loans outstanding purchased  from the FDIC,D_RC1.TXT
+LLLIMITBASE,Numeric,0,Lending and Leasing Limit Base (Stops collecting as of March 2022),D_RC1.TXT
+LoanLeaseHeldAmortizedCost,Numeric,0,Loans and Leases Held for Sale: Amortized cost   ,D_RC1.TXT
+LoanLeaseHeldFairValue,Numeric,0,"Loans and Leases Held for Sale: Fair value TotRegCap	 Numeric     0  Lending and Leasing Limit Base: Total regulatory capital (Sch. RC-R.1, item 5b.)",D_RC1.TXT
+Excess3rdPartyCap,Numeric,0,Lending and Leasing Limit Base: Eligible excess third-party capital above regulatory capital limits,D_RC1.TXT
+LendLeaseLimitBaseTRC,Numeric,0,Lending and Leasing Limit Base: Lending and Leasing Limit Base (sum of items 5a. and 5b.),D_RC1.TXT
+SYSTEM,Numeric,0,System Code      ,D_RCB.TXT
+DIST,Numeric,0,District Code   ,D_RCB.TXT
+ASSOC,Numeric,0,Association Code  ,D_RCB.TXT
+MONTH,Numeric,0,Month of Report             ,D_RCB.TXT
+YEAR,Numeric,0,Year of Report             ,D_RCB.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCB.TXT
+INV_CODE,Numeric,0,Investment Code for Marketable Investments: 10  U.S. Treasury securities,D_RCB.TXT
+,,15,SBA securities 17  Other U.S. Gov’t securities and Agency(excluding MBS),D_RCB.TXT
+,,25,Securities fully and unconditionally guaranteed by a GSE (excluding MBS and Farmer Mac securities) 29  Municipal securities,D_RCB.TXT
+,,35,International and multilateral development bank obligations 40  Money market instruments:Federal funds sold 41  Money market instruments:Negotiable certificates of Deposit,D_RCB.TXT
+,,60,Money market instruments:Banker acceptances,D_RCB.TXT
+,,52,Money market instruments:Commercial paper,D_RCB.TXT
+,,50,Money market instruments:Reverse repurchase agreements,D_RCB.TXT
+,,51,Money market instruments:Other,D_RCB.TXT
+,,62,RMBS fully and unconditionally guaranteed by U.S.   government or its agencies 68  RMBS fully and unconditionally guaranteed by GSE 64  Non-Agency RMBS 69  Other RMBS 71  CMBS(excl. Farmer Mac sec.):CMBS fully and unconditionally guaranteed by U.S. government,D_RCB.TXT
+,,72,CMBS(excl. Farmer Mac sec.):CMBS fully and unconditionally  guaranteed by GSE 73  CMBS(excl. Farmer Mac sec.):Non-Agency CMBS,D_RCB.TXT
+,,65,"CMBS(excl. Farmer Mac sec.):Other CMBS 86  Farmer Mac guaranteed sec.:Farm and ranch securities (i.e., AMBS) 87  Farmer Mac guaranteed sec.:Rural utility securities",D_RCB.TXT
+,,88,Farmer Mac guaranteed sec.:USDA securities,D_RCB.TXT
+,,66,Farmer Mac guaranteed sec.:Other Farmer Mac debt securities 141 ABS(excl. Farmer Mac securities):Credit card receivables 142 ABS(excl. Farmer Mac securities):Home equity loans 143 ABS(excl. Farmer Mac securities):Auto Loans 144 ABS(excl. Farmer Mac securities):Student Loans 145 ABS(excl. Farmer Mac securities):Equipment loans 146 ABS(excl. Farmer Mac securities):Manufactured housing loans 95  ABS(excl. Farmer Mac securities):Other ABS 81  Other types of debt securities:Domestic debt securities 82  Other types of debt securities:Foreign debt securities 180 Allowance for Credit Losses on Debt Securities(start collecting on March 2023) 99  Total Debt Securities,D_RCB.TXT
+BKVAL,Numeric,0,Amortized cost of Marketable Investments,D_RCB.TXT
+MKTVAL,Numeric,0,Fair Value of Marketable Investments  ,D_RCB.TXT
+BKVALFORSALE,Numeric,0,Available for Sale - Amortized cost,D_RCB.TXT
+MKTVALFORSALE,Numeric,0,Available for Sale - Fair Value,D_RCB.TXT
+DIST,Numeric,0,District Code   ,D_RCB2.TXT
+ASSOC,Numeric,0,Association Code  ,D_RCB2.TXT
+MONTH,Numeric,0,Month of Report             ,D_RCB2.TXT
+YEAR,Numeric,0,Year of Report             ,D_RCB2.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCB2.TXT
+AssetCodeRCB2,Numeric,0,Asset Code for Assets Held for Liquidity  110  Level 1: Cash,D_RCB2.TXT
+,,120,Level 1: Overnight money market instruments 130  Level 1: U.S. Government obligations ? 3years remaining maturity,D_RCB2.TXT
+,,140,Level 1: GSE senior debt ? 60 days remaining maturity 150  Level 1: Diversified investments funds comprised of Level 1 securities,D_RCB2.TXT
+,,160,Level 1: Subtotal 210  Level 2: U.S. Government obligations > 3 year remaining maturity 220  Level 2: MBS fully and explicitly guaranteed (both P&I) by U.S. Government,D_RCB2.TXT
+,,230,Level 2: Diversified investment funds comprised of Levels 1 and 2 securities,D_RCB2.TXT
+,,240,Level 2: Subtotal,D_RCB2.TXT
+,,310,Level 3: GSE senior debt > 60 days remaining maturity,D_RCB2.TXT
+,,320,Level 3: MBS fully guaranteed (both P&I) by a GSE,D_RCB2.TXT
+,,330,"Level 3: Money market instruments ? 90 day remaining maturity 340  Level 3: Diversified investments funds comprised of Levels 1, 2, and 3 securities 350  Level 3: Subtotal 410  Supplemental liquidity buffer 510  Total AmortizedCost   Numeric    0  Amortized cost of Assets Held for Liquidity FairValue   Numeric    0  Fair Value of Assets Held for Liquidity",D_RCB2.TXT
+DiscountedFairValue,Numeric,0,Discounted Fair Value of Assets Held for Liquidity,D_RCB2.TXT
+LiquidityDaysForCategory,Numeric,0,Days of Liquidity For Category,D_RCB2.TXT
+DIST,Numeric,0,District Code   ,D_RCB3.TXT
+ASSOC,Numeric,0,Association Code  ,D_RCB3.TXT
+MONTH,Numeric,0,Month of Report             ,D_RCB3.TXT
+YEAR,Numeric,0,Year of Report             ,D_RCB3.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCB3.TXT
+DebtMaturityCode,Numeric,0,DebtMaturity code for Demands on Liquidity 110  <8 days,D_RCB3.TXT
+,,120,8-15 days 130  16-30 days,D_RCB3.TXT
+,,140,31-45 days 150  46-90 days,D_RCB3.TXT
+,,160,91-120 day 170  121-150 days 180  >150 days 185  Unamortized discount or premium and unamortized debt issuance costs 190  Total,D_RCB3.TXT
+SystemwideDebt,Numeric,0,Consolidated Systemwide Debt Obligation,D_RCB3.TXT
+OtherBankDebt,Numeric,0,Other Bank Borrowings,D_RCB3.TXT
+TotalDebt,Numeric,0,Total,D_RCB3.TXT
+InvEquityAssocInBankPurch,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Association invest. in district bank (Assoc. only):Purchased,D_RCB4.TXT
+InvEquityAssocInBankAlloc,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Association invest. in district bank (Assoc. only):Allocated,D_RCB4.TXT
+InvEquityBankInAssoc,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Bank invest. in district associations (Banks only),D_RCB4.TXT
+InvEquityFarmerMacStk,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Farmer Mac stock,D_RCB4.TXT
+InvEquityFCSIOther,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Other,D_RCB4.TXT
+TotInvEquityFCSI,Numeric,0,Equity Invest in Sys. Inst. & Farmer Mac: Total equity invest. in System inst. and Farmer Mac,D_RCB4.TXT
+InvEquityNonFCSIRBIC,Numeric,0,Equity Investments in non-System Institutions: Rural business investment companies organized under 7 U.S.C.2009cc et seq,D_RCB4.TXT
+InvEquityNonFCSIUBEs,Numeric,0,Equity Investments in non-System Institutions: Unincorporated business entities authorized under 611.1150,D_RCB4.TXT
+InvEquityNonFCSICaptiveIns,Numeric,0,Equity Investments in non-System Institutions:  FCS Association Captive Insurance Company,D_RCB4.TXT
+InvEquityNonFCSInvFunds,Numeric,0,Equity Investments in non-System Institutions:  Diversified investment funds,D_RCB4.TXT
+InvEquityNonFCSIOther,Numeric,0,Equity Investments in non-System Institutions: Other,D_RCB4.TXT
+TotInvEquityNonFCSI,Numeric,0,Equity Investments in non-System Institutions: Total equity investments in non-System institutions,D_RCB4.TXT
+AvgDailyBankInv35Pct30Day,Numeric,0,Investment Regulatory Limits (Banks only): Investments subject to the 35% regulatory limit (615.5132) (30-day average daily balance) AvgDailyBankTotLoans   Numeric     0  Investment Regulatory Limits (Banks only): Total loans as defined by 615.5131 (quarterly average daily balance) BankInvPctOfTotLoans   Numeric     4  Investment Regulatory Limits (Banks only): Investments as a percentage of total loans (item 1(a) divided by 1(b)) BankLrgstObligor   Numeric     0  Investment Regulatory Limits (Banks only): Largest concentration to one obligor (excluding investments fully guaranteed by the U.S. government or GSE) (quarter-end),D_RCB5.TXT
+BankLrgstObligorPctOfTotRegCap,Numeric,4,"Investment Regulatory Limits (Banks only): Obligor exposure as a percentage of total regulatory capital (item 1(d) divided by RC-R.1, item 5(a))",D_RCB5.TXT
+TotInvestmentsRegLimit,Numeric,0,"Investment Regulatory Limits (Banks only): Total investments volume, as adjusted to measure asset class and GSE-MBS concentration limits (quarter-end)",D_RCB5.TXT
+BankLrgstConcnAssetCls,Numeric,0,Investment Regulatory Limits (Banks only): Largest concentration in one asset class (excluding money market securities and investments fully guaranteed by U.S. government or GSE) (quarter-end),D_RCB5.TXT
+BankLrgstConcnAssetClsPctOfTotInv,Numeric,4,Investment Regulatory Limits (Banks only): Largest percentage portfolio concentration in one asset class (item 1(g) divided by 1(f)) BankMBSByGSE   Numeric     0  Investment Regulatory Limits (Banks only): MBS guaranteed by a GSE (excluding Farmer Mac securities) (quarter-end),D_RCB5.TXT
+BankMBSByGSEPctOfTotInv,Numeric,4,Investment Regulatory Limits (Banks only): Percentage portfolio concentration in MBS guaranteed by a GSE (item 1(i) divided by 1(f)) AssocInv10Pct   Numeric     0  Investment Regulatory Limits (Associations only): Investments subject to the 10% regulatory limit (615.5140(b)(4)) AssocLoans10Pct   Numeric     0  Investment Regulatory Limits (Associations only): Loans subject to the 10% regulatory limit (615.5140(b)(4)),D_RCB5.TXT
+AvgDailyAssocTotLoans,Numeric,0,Investment Regulatory Limits (Associations only): Total adjusted loans as defined by 615.5140(b)(4) (90-day average daily balance),D_RCB5.TXT
+AssocInvPctOfTotLoans,Numeric,4,Investment Regulatory Limits (Associations only): Investments as a percentage of total loans (sum of items 2(a) and 2(b) divided by 2(c)),D_RCB5.TXT
+BankPledgedSecurities,Numeric,0,Investment purposes (Banks only): Pledged securities,D_RCB5.TXT
+BankSecsLiquidityRsrvBuffer,Numeric,0,Investment purposes (Banks only): Securities included in the liquidity reserve and supplemental liquidity buffer,D_RCB5.TXT
+BankSecsRemvdLiquidityRsrvBuffer,Numeric,0,Investment purposes (Banks only): Securities removed from the liquidity reserve and supplemental liquidity buffer due to noncompliance with 615.5143(a) or (b),D_RCB5.TXT
+BankSecsRemvdLiquidityBuffer,Numeric,0,Investment purposes (Banks only): Securities removed from supplemental liquidity buffer due to noncompliance with 615.5134(e),D_RCB5.TXT
+BankSecuritiesHeldOther,Numeric,0,Investment purposes (Banks only): Securities held for other purposes TotBankSecurities   Numeric     0  Investment purposes (Banks only):Total,D_RCB5.TXT
+IneligibleInvWhenPurchased,Numeric,0,Ineligible Investment: Investments determined to be ineligible when purchased as defined by 615.5143(a),D_RCB5.TXT
+IneligibleInvAfterPurchase,Numeric,0,Ineligible Investment: Investments that became ineligible after purchase as defined by 614.5143(b) DebtSec5140e   Numeric     0  Investments and loans approved by FCA under 615.5140(e): Debt securities EquitySec5140e   Numeric     0  Investments and loans approved by FCA under 615.5140(e): Equity securities Loans5140e   Numeric     0  Investments and loans approved by FCA under 615.5140(e): Loans USDADebtSecsFarmerMac   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Debt securities: Issued or guaranteed by Farmer Mac USDADebtSecsOther   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Debt securities: Other securitizations USDALoanPurch5140Amt   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Loans purchased under investment authorities in regulation 615.5140: Amount outstanding,D_RCB5.TXT
+USDALoanPurch5140AmtPurch,Numeric,0,USDA Guaranteed Financial Instruments Purchased Under Regulatory  Investment Authorities: Loans purchased under investment authorities in regulation 615.5140: Amount purchased during quarter USDALoanPurch5140Nbr   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Loans purchased under investment authorities in regulation 615.5140: Number outstanding,D_RCB5.TXT
+USDALoanPurch5140NbrPurch,Numeric,0,USDA Guaranteed Financial Instruments Purchased Under Regulatory  Investment Authorities: Loans purchased under investment authorities in regulation 615.5140: Number purchased during quarter USDAPremiumAdded   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Price premiums/discounts: Premiums added during quarter (net of discounts) USDAPremiumAmortized   Numeric     0  USDA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Price premiums/discounts: Premiums amortized during quarter (net of discounts),D_RCB5.TXT
+USDAUnamortizedPremium,Numeric,0,USDA Guaranteed Financial Instruments Purchased Under Regulatory  Investment Authorities: Price premiums/discounts: Unamortized premiums outstanding (net of discounts),D_RCB5.TXT
+USDAAvgPricePaidPurch,Numeric,2,USDA Guaranteed Financial Instruments Purchased Under Regulatory  Investment Authorities: Average price paid on purchases during quarter,D_RCB5.TXT
+USDAProjAvgRORPurch,Numeric,4,USDA Guaranteed Financial Instruments Purchased Under Regulatory  Investment Authorities: Projected average internal rate of return on purchases during quarter SBADebtSecs   Numeric     0  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Debt securities SBALoanPurch5140   Numeric     0  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Loans purchased under investment authorities in regulation 615.5140 SBAPremiumAdded   Numeric     0  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Price premiums/discounts Premiums added during quarter (net of discounts) SBAPremiumAmortized   Numeric     0  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Price premiums/discounts Premiums amortized during quarter (net of discounts) SBAUnamortizedPremium   Numeric     0  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Price premiums/discounts Unamortized premiums outstanding (net of discounts) SBAAvgPricePaidPurch   Numeric     2  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Average price paid on purchases during quarter SBAProjAvgRORPurch   Numeric     4  SBA Guaranteed Financial Instruments Purchased Under Regulatory Investment Authorities: Projected average internal rate of return on purchases during quarter,D_RCB5.TXT
+SYSTEM,Numeric,0,System Code,D_RCF.TXT
+DIST,Numeric,0,District Code ,D_RCF.TXT
+ASSOC,Numeric,0,Association Code ,D_RCF.TXT
+MONTH,Numeric,0,Month of Report,D_RCF.TXT
+YEAR,Numeric,0,Year of Report,D_RCF.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCF.TXT
+LOANSTATUS,Numeric,0,Code for Loan Performance Status:  10  Accruing 20  Formally restructured accruing 54  Nonaccrual: Cash basis 56  Nonaccrual: Other 60  Total 80  Number of Loans,D_RCF.TXT
+NOTPDUE,Numeric,0,Not past due or Past Due Less Than 30 Days,D_RCF.TXT
+PDUE30,Numeric,0,Past Due 30 Thru 89 Days,D_RCF.TXT
+PDUE90,Numeric,0,Past Due 90 Days or More,D_RCF.TXT
+TOTPDUE,Numeric,0,Total,D_RCF.TXT
+SYSTEM,Numeric,0,System Code,D_RCF1.TXT
+DIST,Numeric,0,District Code ,D_RCF1.TXT
+ASSOC,Numeric,0,Association Code ,D_RCF1.TXT
+MONTH,Numeric,0,Month of Report,D_RCF1.TXT
+YEAR,Numeric,0,Year of Report,D_RCF1.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCF1.TXT
+LOANSTATUS,Numeric,0,Code for Loan Performance Status:  100 Production Agribulture: Real Estate 105 Production Agribulture: Production and Intermediate Term 110 Agribusiness 115 Communication 120 Energy 125 Water/Waste disposal 130 Rural residential real estate 135 International 140 Lease receivables 145 Direct loans to associations 150 Discounted loans to OFIs 152 Other loans 155 Total,D_RCF1.TXT
+ACCR,Numeric,0,Accruing Loans,D_RCF1.TXT
+ACCRPDUE,Numeric,0,Accruing 90 days or more past due,D_RCF1.TXT
+FRMREST,Numeric,0,Formally restructured accruing,D_RCF1.TXT
+NONCSH,Numeric,0,Nonaccrual cash basis,D_RCF1.TXT
+NONOTH,Numeric,0,Nonaccrual other,D_RCF1.TXT
+TOTPERF,Numeric,0,Total,D_RCF1.TXT
+AvgDailyInvDebtSecurities,Numeric,0,Investments: Debt securities,D_RCG.TXT
+AvgDailyInvEquityFCSI,Numeric,0,Investments: Equity investments in  System institutions and Farmer Mac,D_RCG.TXT
+AvgDailyInvEquityNonFCSI,Numeric,0,Investments: Equity investments in  non-System institutions,D_RCG.TXT
+DIST,Numeric,0,District Code,D_RCH.TXT
+ASSOC,Numeric,0,Association Code,D_RCH.TXT
+MONTH,Numeric,0,Month of Report,D_RCH.TXT
+YEAR,Numeric,0,Year of Report,D_RCH.TXT
+UNINUM,Numeric,0,"System, District, and Association    codes concatenated",D_RCH.TXT
+ACNOCOMINC,Numeric,0,Total accumulated other comprehensive,D_RCH.TXT
+UNREALGAIN,Numeric,0,Net unrealized gains (or losses) on securities available-for-sale,D_RCH.TXT
+OTHIMPSEC,Numeric,0,Non-credit related impairment on securities available-for-sale,D_RCH.TXT
+PENSIONADJ,Numeric,0,Minimum pension liability adjustments,D_RCH.TXT
+CASHHEDGEADJ,Numeric,0,Cash flow hedge adjustments,D_RCH.TXT
+OTHINCADJ,Numeric,0,Other comprehensive income adjustments,D_RCH.TXT
+UnusedCommitUncondCancel,Numeric,0,Unused Commitments: Retail loans to borrowers - unconditionally cancellable ,D_RCI1_2018.TXT
+UnusedCommitLE14Month,Numeric,0,Unused Commitments: Retail loans to borrowers – 14 months or less (excludes unconditionally cancellable),D_RCI1_2018.TXT
+UnusedCommitGT14Month,Numeric,0,Unused Commitments: Retail loans to borrowers – greater than 14 months (excludes unconditionally cancellable),D_RCI1_2018.TXT
+UnusedCommitDirectLoan,Numeric,0,Unused Commitments: Direct loans to associations/OFIs (bank only),D_RCI1_2018.TXT
+LetterCrdtFinclStandby,Numeric,0,Letters of Credit: Financial standby letters of credit,D_RCI1_2018.TXT
+LetterCrdtPerfStandby,Numeric,0,Letters of Credit: Performance standby letters of credit,D_RCI1_2018.TXT
+LetterCrdtCommercial,Numeric,0,Letters of Credit: Commercial and other similar letters of credit,D_RCI1_2018.TXT
+Commit2PurchWhenIssuedTBA,Numeric,0,Commitments to purchase “when issued” or “to-be announced” securities AssetServBalance  Numeric     0  Assets Serviced for Others: Total principal outstanding AssetServTotCommit  Numeric     0  Assets Serviced for Others: Total commitment,D_RCI1_2018.TXT
+OtherOBSCommitContingency,Numeric,0,Other Material Off-Balance Sheet Commitments and Contingencies (include only if greater than $10 million or 10% of net worth – whichever is less),D_RCI1_2018.TXT
+CreditDerivNVOther,Numeric,0,Credit Derivatives (Notional) (purchased protection): Other credit derivatives,D_RCI2A_2018.TXT
+CreditDerivNVTotal,Numeric,0,Credit Derivatives (Notional) (purchased protection): Total credit derivatives ,D_RCI2A_2018.TXT
+CreditDerivNVNotRskMtgnt,Numeric,0,Credit derivatives included in 1(c) that are not recognized as a credit risk mitigant,D_RCI2A_2018.TXT
+DerivCode,Numeric,0,Code Derivative Contracts (exclude credit derivatives): 10  Cleared Derivatives (Notional): Swap contracts 20  Cleared Derivatives (Notional): Option contracts – purchased 30  Cleared Derivatives (Notional): Option contracts – written (sold) 40  Cleared Derivatives (Notional): Futures contracts 50  Cleared Derivatives (Notional): Total cleared derivative contracts 60  Non-cleared Derivatives (Notional): Swap contracts 70  Non-cleared Derivatives (Notional): Option contracts – purchased 80  Non-cleared Derivatives (Notional): Option contracts – written (sold) 90  Non-cleared Derivatives (Notional): Forward contracts 100 Non-cleared Derivatives (Notional): Total non-cleared derivative contracts 110 Total Derivative Contracts (Notional) (sum of 3(e)and 4(e) 120 Derivatives included in Line 5 that are on behalf of customers (Notional) 130 Cleared Derivatives (Fair Value): Swap contracts 140 Cleared Derivatives (Fair Value): Option contracts – purchased 150 Cleared Derivatives (Fair Value): Option contracts – written (sold) 160 Cleared Derivatives (Fair Value): Futures contracts 170 Cleared Derivatives (Fair Value): Total cleared derivative contracts 180 Non-cleared Derivatives (Fair Value): Swap contracts 190 Non-cleared Derivatives (Fair Value): Option contracts – purchased 200 Non-cleared Derivatives (Fair Value): Option contracts – written (sold) 210 Non-cleared Derivatives (Fair Value): Forward contracts 220 Non-cleared Derivatives (Fair Value): Total non-cleared derivative contracts 230 Total derivative contracts (Fair Value – sum of 7(e) and 8(e),D_RCI2B_2018.TXT
+DerivIntRate,Numeric,0,Interest Rate,D_RCI2B_2018.TXT
+DerivFX,Numeric,0,Foreign Exchange,D_RCI2B_2018.TXT
+DerivOther,Numeric,0,Other,D_RCI2B_2018.TXT
+ExposureCode,Numeric,0,Code for Fair Value Counterparty Exposures  (Including Impact of Netting Agreements): 10  Institution’s Exposure to Counterparties after netting: Derivative contracts in a gain position 20  Institution’s Exposure to Counterparties after netting: Initial margin posted by counterparties - Cash 30  Institution’s Exposure to Counterparties after netting: Initial margin posted by counterparties - Securities 40  Institution’s Exposure to Counterparties after netting: Variation margin or settlement payments posted by counterparties - Cash 50  Institution’s Exposure to Counterparties after netting: Variation margin or settlement payments posted by counterparties - Securities 70  Institution’s Exposure to Counterparties after netting: Institution’s exposure to counterparties (item 10(a) minus (items 10(b) through 10(e)) 80  Counterparties’ Exposure to Institution after netting: Derivative contracts in a loss position 90  Counterparties’ Exposure to Institution after netting: Initial margin posted by counterparties - Cash 100 Counterparties’ Exposure to Institution after netting: Initial margin posted by counterparties - Securities 110 Counterparties’ Exposure to Institution after netting: Variation margin or settlement payments posted by counterparties - Cash 120 Counterparties’ Exposure to Institution after netting: Variation margin or settlement payments posted by counterparties - Securities 140 Counterparties’ Exposure to Institution after netting: Counterparty exposure to institution (item 11(a) minus (items 11(b) through 11(e)),D_RCI2C_2018.TXT
+ExposureCleared,Numeric,0,Cleared,D_RCI2C_2018.TXT
+ExposureNonCleared,Numeric,0,Non-cleared,D_RCI2C_2018.TXT
+DerivRMCode,Numeric,0,Code for Derivatives by Remaining Maturity (Notional): 10  Cleared derivatives: Interest rate risk 20  Cleared derivatives: Foreign exchange 30  Cleared derivatives: Credit 40  Cleared derivatives: Others 50  Cleared derivatives: Total cleared 60  Non-cleared derivatives: Interest rate risk 70  Non-cleared derivatives: Foreign exchange 80  Non-cleared derivatives: Credit 90  Non-cleared derivatives: Others 100 Non-cleared derivatives: Total non-cleared 110 Total derivative contracts (sum 12(e)+ 13(e),D_RCI2D_2018.TXT
+DerivRMLE1Yr,Numeric,0,Remaining Maturity: <= 1 year,D_RCI2D_2018.TXT
+DerivRMGT1YrLE5Yr,Numeric,0,Remaining Maturity: > 1 but <= 5 years,D_RCI2D_2018.TXT
+DerivRMGT5Yr,Numeric,0,Remaining Maturity: > 5 years,D_RCI2D_2018.TXT
+SYSTEM,Numeric,0,System Code                             ,D_RCK.TXT
+DIST,Numeric,0,District Code                           ,D_RCK.TXT
+ASSOC,Numeric,0,Association Code                        ,D_RCK.TXT
+MONTH,Numeric,0,Month of Report              ,D_RCK.TXT
+YEAR,Numeric,0,Year of Report                ,D_RCK.TXT
+UNINUM,Numeric,0,"System, District, and Association    Codes concatenated",D_RCK.TXT
+ACRLNSBBAL,Numeric,0,Accrual Loans-Beginning Balance         ,D_RCK.TXT
+NEWMONEY,Numeric,0,Direct New Money                        ,D_RCK.TXT
+PRTLNPUR,Numeric,0,Purchases of Loans and Participations   ,D_RCK.TXT
+CONVAIR,Numeric,0,Conversions of Accrued Interest         ,D_RCK.TXT
+PRINADDS,Numeric,0,Refinancing of Principal                ,D_RCK.TXT
+REINSTNA,Numeric,0,Reinstatements from Nonaccrual Status   ,D_RCK.TXT
+RECACRLN,Numeric,0,Recoveries/Reinstatements of             Chargeoffs,D_RCK.TXT
+OADDS,Numeric,0,Other Debits                            ,D_RCK.TXT
+REPAY,Numeric,0,Repayments        ,D_RCK.TXT
+PRTLNSLD,Numeric,0,Sales of Loans and Participations       ,D_RCK.TXT
+PRINSUBS,Numeric,0,Refinancing of Principal                ,D_RCK.TXT
+TRNONACR,Numeric,0,Transfers to Nonaccrual Status          ,D_RCK.TXT
+TRAQPROP,Numeric,0,Transfers to Other Property Owned       ,D_RCK.TXT
+COACRLNS,Numeric,0,Chargeoffs       ,D_RCK.TXT
+OSUBS,Numeric,0,Other Credits                           ,D_RCK.TXT
+ACRLNSEB,Numeric,0,Accrual Loans-Ending Balance            ,D_RCK.TXT
+VTNGSTKH,Numeric,0,Voting Stockholders                     ,D_RCK.TXT
+NVTNGSTKH,Numeric,0,Nonvoting Stockholders                  ,D_RCK.TXT
+SECMKTLNS,Numeric,0,Secondary market loans (made/acquired  during period),D_RCK.TXT
+DIST,Numeric,0,District Code ,D_RCL.TXT
+ASSOC,Numeric,0,Association Code ,D_RCL.TXT
+MONTH,Numeric,0,Month of Report,D_RCL.TXT
+YEAR,Numeric,0,Year of Report,D_RCL.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCL.TXT
+NONACRBBAL,Numeric,0,Nonaccrual Loans-Beginning Balance,D_RCL.TXT
+TRANSNONACRN,Numeric,0,Gross Amounts Transferred into Nonaccrual,D_RCL.TXT
+CHGOFFNONACR,Numeric,0,Chargeoffs on Nonaccrual Loans,D_RCL.TXT
+TRANSACQPROPN,Numeric,0,Transfers to Other Property Owned,D_RCL.TXT
+REINSTTONONACR,Numeric,0,Reinstatements to Accrual Status,D_RCL.TXT
+RECOVNONACR,Numeric,0,Recoveries on Nonaccrual Loans,D_RCL.TXT
+REPAYNONACR,Numeric,0,Repayments on Nonaccrual Loans,D_RCL.TXT
+ONONACR,Numeric,0,Other Nonaccrual Loans,D_RCL.TXT
+NONACR,Numeric,0,Nonaccrual Loans-Ending Balance,D_RCL.TXT
+SYSTEM,Numeric,0,System Code   ,D_RCM.TXT
+DIST,Numeric,0,District Code  ,D_RCM.TXT
+ASSOC,Numeric,0,Association Code,D_RCM.TXT
+MONTH,Numeric,0,Month of Report,D_RCM.TXT
+YEAR,Numeric,0,Year of Report,D_RCM.TXT
+UNINUM,Numeric,0,"System, District, and Association    codes concatenated",D_RCM.TXT
+ACQPROPBBAL,Numeric,0,Other Property Owned-Beginning Balance,D_RCM.TXT
+TRANSACQPROPT,Numeric,0,Gross Amounts Transferred in from Other Property Owned,D_RCM.TXT
+ACQPROPDEP,Numeric,0,Amounts Depreciated on Other Property Owned,D_RCM.TXT
+ACQPROPDISP,Numeric,0,Properties Disposed of,D_RCM.TXT
+CHGOFFACQPROP,Numeric,0,Net chargeoffs/write-ups on Other Property Owned,D_RCM.TXT
+OACQPROP,Numeric,0,Other - Other Property Owned,D_RCM.TXT
+ACQPROP,Numeric,0,Other Property Owned-Ending Balance,D_RCM.TXT
+DIST,Numeric,0,District Code   ,D_RCO.TXT
+ASSOC,Numeric,0,Association Code  ,D_RCO.TXT
+MONTH,Numeric,0,Month of Report             ,D_RCO.TXT
+YEAR,Numeric,0,Year of Report             ,D_RCO.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RCO.TXT
+ASSET_CODE,Numeric,0,Code for Asset Type:  10  Loan participations: Purchased 20  Loan participations: Sold 30  Similar entity transactions: Acquired On Interest Held 40  Similar entity transactions: Sold 50  Lease interest purchases and sales: Purchased 60  Lease interest purchases and sales: Sold 70  Other asset purchases and sales: Purchased 80  Other asset purchases and sales: Sold 90  Participations in Notes Receivables: Purchased 100  Participations in Notes Receivables: Sold 110  Asset Purchases and Sales - Certain Pool Items: Purchased 120  Asset Purchases and Sales - Certain Pool Items: Sold,D_RCO.TXT
+TRANSWFCI,Numeric,0,Amortized cost,D_RCO.TXT
+TRANSWNONFCI,Numeric,0,Fair Value,D_RCO.TXT
+AvgDailyCET1,Numeric,0,Common Equity Tier 1 Capital (CET1) Quarterly Average Amount,D_RCR1.TXT
+CET1,Numeric,0,Common Equity Tier 1 Capital (CET1) Quarter-End Amount,D_RCR1.TXT
+AvgDailyAT1,Numeric,0,Additional Tier 1 Capital (AT1) Quarterly Average Amount,D_RCR1.TXT
+AT1,Numeric,0,Additional Tier 1 Capital (AT1) Quarter-End Amount,D_RCR1.TXT
+AvgDailyTier1,Numeric,0,Tier 1 Capital Quarterly Average Amount,D_RCR1.TXT
+Tier1,Numeric,0,Tier 1 Capital Quarter-End Amount,D_RCR1.TXT
+AvgDailyTier2,Numeric,0,Tier 2 Capital Quarterly Average Amount,D_RCR1.TXT
+Tier2,Numeric,0,Tier 2 Capital Quarter-End Amount,D_RCR1.TXT
+AvgDailyTotRegCap,Numeric,0,Total Regulatory Capital Quarterly Average Amount,D_RCR1.TXT
+TotRegCap,Numeric,0,Total Regulatory Capital Quarter-End Amount,D_RCR1.TXT
+AVPRMCAP,Numeric,0,Permanent Capital Quarterly Average Amount,D_RCR1.TXT
+PERMCAPA,Numeric,0,Permanent Capital Quarter-End Amount,D_RCR1.TXT
+AvgDailyRWARegCap,Numeric,0,Risk-weighted assets (RWAs) used for Tier 1/Tier 2 capital ratios Quarterly Average Amount,D_RCR1.TXT
+RWARegCap,Numeric,0,Risk-weighted assets (RWAs) used for Tier 1/Tier 2 capital ratios Quarter-End Amount,D_RCR1.TXT
+AvgDailyRWAPermCap,Numeric,0,Risk-weighted assets (RWAs) used for permanent capital Quarterly Average Amount,D_RCR1.TXT
+RWAPermCap,Numeric,0,Risk-weighted assets (RWAs) used for permanent capital Quarter-End Amount,D_RCR1.TXT
+AvgDailyUREandEquiv,Numeric,0,Unallocated retained earnings (URE) and URE equivalents Quarterly Average Amount,D_RCR1.TXT
+UREandEquiv,Numeric,0,Unallocated retained earnings (URE) and URE equivalents Quarter-End Amount,D_RCR1.TXT
+AvgDailyAssetsLvrg,Numeric,0,Total Adjusted Assets for the Leverage Ratio Quarterly Average Amount,D_RCR1.TXT
+AssetsLvrg,Numeric,0,Total Adjusted Assets for the Leverage Ratio Quarter-End Amount,D_RCR1.TXT
+AvgDailyAllowRsrvNotTier2,Numeric,0,Amount of Adjusted Allowances for Credit Losses Not Included in Tier 2 Capital Quarterly Average Amount,D_RCR1.TXT
+AllowRsrvNotTier2,Numeric,0,Amount of Adjusted Allowances for Credit Losses Not Included in Tier 2 Capital Quarter-End Amount,D_RCR1.TXT
+CET1Ratio,Numeric,2,Common Equity Tier 1 capital ratio,D_RCR2.TXT
+Tier1Ratio,Numeric,2,Tier 1 capital ratio,D_RCR2.TXT
+TotRegCapRatio,Numeric,2,Total regulatory capital ratio,D_RCR2.TXT
+Tier1LvrgRatio,Numeric,2,Tier 1 leverage ratio,D_RCR2.TXT
+UREandEquivLvrgRatio,Numeric,2,URE and URE equivalents leverage ratio,D_RCR2.TXT
+PERMCAPD,Numeric,2,Permanent capital ratio,D_RCR2.TXT
+RegCapCode,Numeric,0,Regulatory Capital Code for Common Cooperative Equities: 100	Purchased Statutory  Required Stock 210	Purchased Other Required Stock < 5 years 220	Purchased Other Required Stock >= 5 years but < 7 years 230	Purchased Other Required Stock >= 7 years 310	Allocated Stock < 5 years 320	Allocated Stock >= 5 years but < 7 years 330	Allocated Stock >= 7 years 410	Qualified Allocated Surplus < 5 years 420	Qualified Allocated Surplus >= 5 years but < 7 years 430	Qualified Allocated Surplus >= 7 years 510	Nonqualified Allocated Surplus < 5 years 520	Nonqualified Allocated Surplus >= 5 years but < 7 years 530	Nonqualified Allocated Surplus >= 7 years 540	Not subject to redemption or revolvement 600	Total Common Cooperative Equities,D_RCR3.TXT
+AvgDailyCCECET1,Numeric,0,Amount included in CET1,D_RCR3.TXT
+AvgDailyCCETier2,Numeric,0,Amount included in CET2,D_RCR3.TXT
+AvgDailyCCETotRegCap,Numeric,0,Amount included in Total Regulatory Capital,D_RCR3.TXT
+AvgDailyCCEPermCap,Numeric,0,Amount included in Permanent Capital,D_RCR3.TXT
+AvgDailyTotCCECET1,Numeric,0,Qualifying common cooperative equity (CCE) included in CET1,D_RCR4.TXT
+AvgDailyPaidInCap,Numeric,0,Paid-in capital (includes Additional Paid-In-Capital “APIC”),D_RCR4.TXT
+AvgDailyURE,Numeric,0,Unallocated retained earnings (URE),D_RCR4.TXT
+AvgDailyOtherCET1,Numeric,0,Other CET1 capital items approved by FCA,D_RCR4.TXT
+AvgDailyTotCET1BfrDed,Numeric,0,Total CET1 before deductions ,D_RCR4.TXT
+AvgDailyGoodwill,Numeric,0,CET1 deductions and Adjustments Less: Goodwill net of associated deferred tax liabilities (DTLs),D_RCR4.TXT
+AvgDailyIntangibleAssets,Numeric,0,"CET1 deductions and Adjustments Less: Intangible assets other than mortgage servicing assets, net of associated DTLs",D_RCR4.TXT
+AvgDailyDTACarryFwd,Numeric,0,"CET1 deductions and Adjustments Less: Deferred tax assets (DTAs) that arise from net operating losses and tax credit carryforward, net of any related valuation allowances and net of DTLs",D_RCR4.TXT
+AvgDailyGainSecuritzation,Numeric,0,"CET1 deductions and Adjustments Less: After-tax gain-on-sale in connection with securitization exposure, net of associated DTLs",D_RCR4.TXT
+AvgDailyDBPensionAssets,Numeric,0,"CET1 deductions and Adjustments Less: Defined benefit pension fund assets, net of associated DTLs. (Unless FCA has given permission to risk weight).",D_RCR4.TXT
+AvgDailyAllocInvFCSICET1,Numeric,0,CET1 deductions and Adjustments Less: Amount of allocated investments in other System institutions. Only the institution who allocated the equities may include those equities in its CET1,D_RCR4.TXT
+AvgDailyPurchInvFCSICET1,Numeric,0,CET1 deductions and Adjustments Less: Amount of purchased investments in other System institutions using the corresponding deduction approach (CDA),D_RCR4.TXT
+AvgDailyInsufCapCET1,Numeric,0,CET1 deductions and Adjustments Less: CDA deductions applied to CET1 capital due to insufficient amounts of AT1 and Tier 2 capital to cover AT1 and Tier 2 deductions,D_RCR4.TXT
+AvgDailyOtherDedCET1,Numeric,0,CET1 deductions and Adjustments Less: Other deductions required by FCA,D_RCR4.TXT
+AvgDailyTotDedCET1,Numeric,0,CET1 deductions and Adjustments Total deductions for CET1 capital (stopped collecting as of March 2022 quarter),D_RCR4.TXT
+AvgDailyCET1,Numeric,0,Common Equity Tier 1 Capital (CET1),D_RCR4.TXT
+AvgDailyPrefStkAT1,Numeric,0,Additional Tier 1 Capital (AT1) Noncumulative perpetual preferred stock,D_RCR4.TXT
+AvgDailyOtherAT1,Numeric,0,Additional Tier 1 Capital (AT1) Other AT1 capital items and related surplus approved by FCA,D_RCR4.TXT
+AvgDailyTotAT1BfrDed,Numeric,0,Additional Tier 1 Capital (AT1) AT1 capital before deductions,D_RCR4.TXT
+AvgDailyAT1InsufTier2,Numeric,0,AT1 deductions Less: CDA deductions applied to AT1 capital due to insufficient amounts of Tier 2 capital to cover Tier 2 deductions,D_RCR4.TXT
+AvgDailyAT1Excess,Numeric,0,AT1 deductions Less: Excess above third party capital limits,D_RCR4.TXT
+AvgDailyOtherDedAT1,Numeric,0,AT1 deductions Less: Other deductions required by FCA,D_RCR4.TXT
+AvgDailyTotDedAT1,Numeric,0,AT1 deductions Total deductions for AT1 Capital,D_RCR4.TXT
+AvgDailyAT1,Numeric,0,Total AT1 Capital,D_RCR4.TXT
+AvgDailyTier1,Numeric,0,Total Tier 1 Capital,D_RCR4.TXT
+AvgDailyTotCCETier2,Numeric,0,CCEs included in Tier 2 Capital,D_RCR4.TXT
+AvgDailyCumulativePrefStk,Numeric,0,Other preferred stock and subordinated debt Cumulative perpetual preferred stock,D_RCR4.TXT
+AvgDailyTermStkGT5Yr,Numeric,0,Other preferred stock and subordinated debt Limited-life preferred stock = 5 years at issuance,D_RCR4.TXT
+AvgDailySubDebtGT5Yr,Numeric,0,Other preferred stock and subordinated debt Subordinated debt = 5 years at issuance,D_RCR4.TXT
+AvgDailyTotPrefStkSubDebt,Numeric,0,Other preferred stock and subordinated debt Total other preferred stock and subordinated debt,D_RCR4.TXT
+AvgDailyALLoss,Numeric,0,"Amount of adjusted allowances for credit losses included in Tier 2 capital Adjusted allowances for credit losses, excluding reserves for unfunded commitments",D_RCR4.TXT
+AvgDailyCrLossRsrv,Numeric,0,Amount of adjusted allowances for credit losses included in Tier 2 capital Reserve for credit losses on off-balance sheet credit exposures,D_RCR4.TXT
+AvgDailyALLCrLossRsrv,Numeric,0,Amount of adjusted allowances for credit losses included in Tier 2 capital Total adjusted allowance,D_RCR4.TXT
+AvgDailyMaxALLCrLossRsrv,Numeric,0,Amount of adjusted allowances for credit losses included in Tier 2 capital Risk-weighted assets multiplied by 0.0125,D_RCR4.TXT
+AvgDailyALLossCrLossTier2,Numeric,0,Amount of adjusted allowances for credit losses included in Tier 2 capital Amount included in Tier 2 capital,D_RCR4.TXT
+AvgDailyOtherTier2Add,Numeric,0,Other Tier 2 capital items approved by FCA,D_RCR4.TXT
+AvgDailyTier2CapBfrDed,Numeric,0,Tier 2 capital before deductions,D_RCR4.TXT
+AvgDailyPurchInvFCSITier2,Numeric,0,Tier 2 deductions Less: Amount of purchased investments in other System institutions using the CDA,D_RCR4.TXT
+AvgDailyExcessTier2,Numeric,0,Tier 2 deductions Less: Excess above third party capital limits,D_RCR4.TXT
+AvgDailyOtherDedTier2,Numeric,0,Tier 2 deductions Less: Other deductions required by FCA,D_RCR4.TXT
+AvgDailyTotDedTier2,Numeric,0,Tier 2 deductions Total deductions for Tier 2 capital,D_RCR4.TXT
+AvgDailyTermStkSubDebtPO,Numeric,0,Less: Phased-out amount of limited life preferred stock and  subordinated debt,D_RCR4.TXT
+AvgDailyTier2,Numeric,0,Total Tier 2 capital,D_RCR4.TXT
+AvgDailyTotRegCap,Numeric,0,Total Regulatory Capital,D_RCR4.TXT
+AvgDailyTotDedRegCap,Numeric,0,Total deductions from regulatory capital,D_RCR4.TXT
+AvgDailyAdjPatDivRec,Numeric,0,CET1 deductions and Adjustments Less: Adjustments for patronage or dividend accrued receivables per § 628.22(b),D_RCR4.TXT
+AvgDailyAdjPatDivPay,Numeric,0,CET1 deductions and Adjustments Plus: Adjustments for patronage or dividend accrued payables per § 628.22(b),D_RCR4.TXT
+AvgDailyTotDedAdjCet1,Numeric,0,CET1 deductions and Adjustments Total deductions & adjustments for CET1 capital (sum of items 6a thru 6i minus 6j plus 6k),D_RCR4.TXT
+AvgDailyAssets,Numeric,0,Total Average Assets for the Leverage Ratio Average total assets,D_RCR5.TXT
+AvgDailyCET1AT1Ded,Numeric,0,"Total Average Assets for the Leverage Ratio Less: Deductions from CET1 and AT1 capital (Sch. RC-R.4, sum of items 6a through 6i, and 9d)",D_RCR5.TXT
+AvgDailyOtherAdjLvrg,Numeric,0,Total Average Assets for the Leverage Ratio Less: Other adjustments required by FCA,D_RCR5.TXT
+AvgDailyAssetsLvrg,Numeric,0,Total Average Assets for the Leverage Ratio Total average assets for Leverage Ratio,D_RCR5.TXT
+AvgDailyPaidInCap,Numeric,0,URE and URE equivalents Paid-in-Capital (includes APIC),D_RCR5.TXT
+AvgDailyURE,Numeric,0,URE and URE equivalents URE,D_RCR5.TXT
+AvgDailyNQASNotSubj2RetireCCECET1,Numeric,0,URE and URE equivalents Nonqualified allocated surplus not subject to retirement,D_RCR5.TXT
+AvgDailyAllocEquityFCSI,Numeric,0,URE and URE equivalents Less: Amount of equities that are allocated to other System institutions,D_RCR5.TXT
+AvgDailyCertainCET1Ded,Numeric,0,URE and URE equivalents Less: Deductions & adjustments from CET1 capital (RC-R4 item 6l),D_RCR5.TXT
+AvgDailyUREandEquiv,Numeric,0,URE and URE equivalents Total URE and URE equivalents,D_RCR5.TXT
+AvgDailyTotCCEPermCap,Numeric,0,CCEs included in Permanent Capital,D_RCR6.TXT
+AvgDailyPaidInCap,Numeric,0,Additions to Permanent Capital Paid-in Capital (includes APIC),D_RCR6.TXT
+AvgDailyURE,Numeric,0,Additions To Permanent Capital URE (Sch. RC-R.4 item 3),D_RCR6.TXT
+AvgDailyPrefStkAT1,Numeric,0,Additions To Permanent Capital Capital items previously approved by FCA Noncumulative perpetual preferred stock,D_RCR6.TXT
+AvgDailyTotPrefStkSubDebt,Numeric,0,Additions To Permanent Capital Capital items previously approved by FCA Other preferred stock and subordinated debt,D_RCR6.TXT
+AvgDailyOtherPerpPrefStk,Numeric,0,Additions To Permanent Capital Capital items previously approved by FCA Other perpetual preferred stock,D_RCR6.TXT
+AvgDailyTotAprvdPermCap,Numeric,0,Additions To Permanent Capital Capital items previously approved by FCA Total capital items previously approved by FCA,D_RCR6.TXT
+AvgDailyOtherAddPermCap,Numeric,0,Additions To Permanent Capital Additional items approved by FCA,D_RCR6.TXT
+AvgDailyTotAddPermCap,Numeric,0,Additions To Permanent Capital Total Additions to Permanent Capital,D_RCR6.TXT
+AvgDailyPermCapBfrDed,Numeric,0,Permanent Capital before deductions,D_RCR6.TXT
+AvgDailyGoodwill,Numeric,0,Deductions to Permanent Capital Less: Goodwill – net of associated DTLs,D_RCR6.TXT
+AvgDailyDTACarryFwd,Numeric,0,Deductions To Permanent Capital Less: DTAs,D_RCR6.TXT
+AvgDailyAllocInvPermCap,Numeric,0,Deductions To Permanent Capital Less: Amount of allocated investments allotted to other System institutions per § 615.5208,D_RCR6.TXT
+AvgDailyPurcInvFCSIPermCap,Numeric,0,Deductions to Permanent Capital Less: Amount of purchased investments in other System institutions,D_RCR6.TXT
+AvgDailyTermStkSubDebtPO,Numeric,0,Deductions to Permanent Capital Less: Phased-out amount of limited life preferred stock and subordinated debt,D_RCR6.TXT
+AvgDailyExcessPermCap,Numeric,0,Deductions to Permanent Capital Less: Excess above third–party capital limits,D_RCR6.TXT
+AvgDailyOtherDedPermCap,Numeric,0,Deductions to Permanent Capital Less: Other deductions required by FCA,D_RCR6.TXT
+AvgDailyTotDedPermCap,Numeric,0,Deductions to Permanent Capital Total Deductions,D_RCR6.TXT
+AVPRMCAP,Numeric,0,Total Permanent Capital,D_RCR6.TXT
+RegCapCode,Numeric,0,"Regulatory Capital Code for risk-weighted assets: 100  Cash and cash balances due from depository institutions or Federal Reserve 210  Federal funds sold 220  Securities purchased under agreement to resell 310  Securities Held-to-Maturity 320  Securities Available-for-Sale 410  On-balance sheet securitization exposures Held-to-Maturity 420  On-balance sheet securitization Available-for-Sale 430  On-balance sheet securitization All other 510  Loans and leases, net of unearned income Retail exposures 520  Loans and leases, net of unearned income Wholesale exposures 600  Loans & Leases Held for Sale 700  All other assets 800  Total On-Balance Sheet Exposures 900  Financial standby letters of credit 1000 Performance standby letters of credit and transaction-related contingent items 1110 Commercial and similar letters of credit Original maturity of 14 months or less 1120 Commercial and similar letters of credit Original maturity exceeding 14 months 1200 Repo-styled transactions 1310 Unused commitments Original maturity of 14 months or less 1320 Unused commitments Original maturity exceeding 14 months 1330 Unused commitments Original Wholesale exposures 1400 Over-the-counter derivatives 1500 Centrally cleared derivatives 1600 Unsettled Transactions 1700 All other off-balance sheet exposures 1800 Total Off-Balance Sheet Exposures 1900 Total On- and Off-Balance Sheet Exposures 2000 Risk Weight Factor 2100 Risk Weighted Assets before deductions",D_RCR7.TXT
+AvgDailyCreditExposure,Numeric,0,Exposure Amount,D_RCR7.TXT
+CreditConvFactor,Numeric,4,Credit Conversion Factors (CCFs),D_RCR7.TXT
+CreditEquil,Numeric,0,Credit Equivalents,D_RCR7.TXT
+RW0Pct,Numeric,0,0%,D_RCR7.TXT
+RW2Pct,Numeric,0,2%,D_RCR7.TXT
+RW4Pct,Numeric,0,4%,D_RCR7.TXT
+RW10Pct,Numeric,0,10%,D_RCR7.TXT
+RW20Pct,Numeric,0,20%,D_RCR7.TXT
+RW50Pct,Numeric,0,50%,D_RCR7.TXT
+RW100Pct,Numeric,0,100%,D_RCR7.TXT
+RW150Pct,Numeric,0,150%,D_RCR7.TXT
+RW600Pct,Numeric,0,600%,D_RCR7.TXT
+RW625Pct,Numeric,0,625%,D_RCR7.TXT
+RW937pt5Pct,Numeric,0,937.5%,D_RCR7.TXT
+RW1250Pct,Numeric,0,1250%,D_RCR7.TXT
+RWSSFACalc,Numeric,0,SSFA Calculation,D_RCR7.TXT
+RWGrossUpCalc,Numeric,0,Gross-up Calculation,D_RCR7.TXT
+AvgDailyRWABfrDed,Numeric,0,Total Risk Weighted Assets before deductions,D_RCR7.TXT
+AvgDailySysEquityInvest,Numeric,0,"Add: Intra-System Equity Investments and Other Adjustments under Â§ 628.22(b) (Sch. RC-R.4, line 6(f)+6(g)+6(h)+6(i)-6(j)+9(a)+17(a))",D_RCR7.TXT
+AvgDailyTotDedRegCap,Numeric,0,Less: Total Deductions from Regulatory Capital,D_RCR7.TXT
+AvgDailyRWABfrAllowDed,Numeric,0,Total Risk Weighted Assets before adjusted allowances for credit losses (AACL) deduction,D_RCR7.TXT
+AvgDailyAllowRsrvNotTier2,Numeric,0,Less: Amount of AACL not included in Tier 2 Capital,D_RCR7.TXT
+AvgDailyRWARegCap,Numeric,0,Total Risk Weighted Assets used for Tier 1/Tier 2 capital ratios,D_RCR7.TXT
+AvgDailyRWAPermCap,Numeric,0,Total Risk Weighted Assets used for permanent capital ratio,D_RCR7.TXT
+DIST,Numeric,0,District Code ,D_RI.TXT
+ASSOC,Numeric,0,Association Code ,D_RI.TXT
+MONTH,Numeric,0,Month of Report ,D_RI.TXT
+YEAR,Numeric,0,Year of Report,D_RI.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RI.TXT
+INTLNS,Numeric,0,Interest income on Loans and Leases    ,D_RI.TXT
+INTNTRECOFCI,Numeric,0,Interest income on notes receivable from other FCS institutions,D_RI.TXT
+INTNTRECO,Numeric,0,Interest income on notes receivable from others,D_RI.TXT
+INTSCON,Numeric,0,Interest on Sales Contracts ,D_RI.TXT
+INTMKTIN,Numeric,0,Interest and Other Income on securities,D_RI.TXT
+OINTINC,Numeric,0,Other Interest Income   ,D_RI.TXT
+TINTINC,Numeric,0,Total Interest Income ,D_RI.TXT
+EXPSYSNTBDS,Numeric,0,Interest Expense on Systemwide Notes and Bonds,D_RI.TXT
+EXPNTPAYOFCI,Numeric,0,Interest Expense on Notes payable to Other FCS institutions,D_RI.TXT
+EXPOINTBEARDT,Numeric,0,Interest Expense on Other interest- bearing debt,D_RI.TXT
+TOTINTEXP,Numeric,0,Total Interest Expense,D_RI.TXT
+NETINTY,Numeric,0,Net Interest Income,D_RI.TXT
+PROVLNS,Numeric,0,"Provisions for credit losses: On loans, sales contracts, notes, and leases",D_RI.TXT
+PROVOTH,Numeric,0,Provisions for Losses on Other Assets,D_RI.TXT
+PATDIV,Numeric,0,"Patronage,Dividends,etc.,from other FC Institutions",D_RI.TXT
+OPNONINTY,Numeric,0,Operating Income,D_RI.TXT
+ONONINTY,Numeric,0,Other Noninterest Income,D_RI.TXT
+TOTNONINTY,Numeric,0,Total Noninterest Income,D_RI.TXT
+NETGLASSETS,Numeric,0,Net Gains or Losses,D_RI.TXT
+TOTNONINTEXP,Numeric,0,Total Noninterest Expense,D_RI.TXT
+BFORTAX,Numeric,0,Income before Income Taxes and  Extraordinary Items and Other Adjustments,D_RI.TXT
+TAXES,Numeric,0,Applicable Income Taxes ,D_RI.TXT
+BFOREXT,Numeric,0,Income before Extraordinary Items and Other Adjustments,D_RI.TXT
+EXTITEM,Numeric,0,Extraordinary Items and Other Adjustments,D_RI.TXT
+NETY,Numeric,0,Net Income (or loss (-))  ,D_RI.TXT
+INTDLNASSOC,Numeric,0,Interest income on Direct loans to associations,D_RI.TXT
+INTNONACLN,Numeric,0,Interest on nonaccrual loans,D_RI.TXT
+EXPNTDLNDIST,Numeric,0,"Interest expense on notes  payable/direct loans to district bank (ACAs, PCAs, and FLCAs only)",D_RI.TXT
+UNREALINVSEC,Numeric,0,Unrealized holding gains  (or losses(-)) on investment securities,D_RI.TXT
+MPENLIABADJ,Numeric,0,Minimum pension liability adjustments,D_RI.TXT
+OCOMPINCADJ,Numeric,0,Other comprehensive income adjustments,D_RI.TXT
+NOCOMPINC,Numeric,0,Net other comprehensive income  (or loss(-)),D_RI.TXT
+COMPINC,Numeric,0,Comprehensive income (or loss(-)),D_RI.TXT
+CASHFLOHEDGADJ,Numeric,0,Cash flow hedge adjustments,D_RI.TXT
+NONTEMPIMPAIR,numeric,0,Non-credit impairment on securities available-for-sale	,D_RI.TXT
+included,in,earnings,D_RI.TXT
+PATPAID,Numeric,0,Patronage on Asset Purchases and Sales - Certain Pool Programs: Paid,D_RI.TXT
+PATRECEIVED,Numeric,0,Patronage on Asset Purchases and Sales - Certain Pool Programs: Recieved,D_RI.TXT
+LossProvisionOBSExposure,Numeric,0,Provisions for losses: On off-balance sheet exposures,D_RI.TXT
+ProvDebtSec,Numeric,0,Provisions for credit losses: On debt securities (start collecting on March 2023),D_RI.TXT
+DIST,Numeric,0,District Code  ,D_RIA.TXT
+ASSOC,Numeric,0,Association Code ,D_RIA.TXT
+MONTH,Numeric,0,Month of Report,D_RIA.TXT
+YEAR,Numeric,0,Year of Report,D_RIA.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RIA.TXT
+FINRELSERV,Numeric,0,Financially Related Services,D_RIA.TXT
+COMPY,Numeric,0,Compensation Income,D_RIA.TXT
+FEEY,Numeric,0,Fee Income,D_RIA.TXT
+MINRLY,Numeric,0,Mineral Income,D_RIA.TXT
+FINASSISTY,Numeric,0,Financial Assistance Received,D_RIA.TXT
+ACQPROPY,Numeric,0,Income from Other Property Owned,D_RIA.TXT
+OOPERY,Numeric,0,Other Operating Income,D_RIA.TXT
+OPNONINTY,Numeric,0,Total Operating Income,D_RIA.TXT
+DIST,Numeric,0,District Code,D_RIB.TXT
+ASSOC,Numeric,0,Association Code,D_RIB.TXT
+MONTH,Numeric,0,Month of Report,D_RIB.TXT
+YEAR,Numeric,0,Year of Report,D_RIB.TXT
+UNINUM,Numeric,0,"System, District, and Association  codes concatenated",D_RIB.TXT
+GLMKTINV,Numeric,0,Net Gains or Losses on Sales of Securities,D_RIB.TXT
+GAINMKTINV,Numeric,0,Gains on Sales of Securities,D_RIB.TXT
+LOSSMKTINV,Numeric,0,Losses on Sales of Securities,D_RIB.TXT
+GLAQPROP,Numeric,0,Net Gains or Losses on Sales of Other Property Owned,D_RIB.TXT
+GAINACQPROP,Numeric,0,Gains on Sales of Other Property Owned,D_RIB.TXT
+LOSSACQPROP,Numeric,0,Losses on Sales of Other Property Owned,D_RIB.TXT
+NETGLOASSETS,Numeric,0,Net Gains or Losses on Sales of Other Assets,D_RIB.TXT
+GAINOASSETS,Numeric,0,Gains on Sales of Other Assets,D_RIB.TXT
+LOSSOASSETS,Numeric,0,Losses on Sales of Other Assets,D_RIB.TXT
+NETGLOTRAN,Numeric,0,Net Gains or Losses on Other Transactions,D_RIB.TXT
+GAINOTRAN,Numeric,0,Gains on Other Transactions,D_RIB.TXT
+LOSSOTRAN,Numeric,0,Losses on Other Transactions,D_RIB.TXT
+NETGLASSETS,Numeric,0,Total Gains or Losses,D_RIB.TXT
+NETIMPAIRLOSS,Numeric,0,Impairment on available-for-sale debt securities ,D_RIB.TXT
+LoanLeaseSaleNetGain,Numeric,0,Net gains (or losses(-)) on sales of  loans and leases,D_RIB.TXT
+LoanLeaseSaleGain,Numeric,0,Gains,D_RIB.TXT
+LoanLeaseSaleLoss,Numeric,0,Losses,D_RIB.TXT
+DIST,Numeric,0,District Code,D_RIC.TXT
+ASSOC,Numeric,0,Association Code,D_RIC.TXT
+MONTH,Numeric,0,Month of Report,D_RIC.TXT
+YEAR,Numeric,0,Year of Report,D_RIC.TXT
+UNINUM,Numeric,0,"System, District, and Association  codes concatenated",D_RIC.TXT
+EXPSALARY,Numeric,0,Salaries and Employee Benefits,D_RIC.TXT
+EXPDIR,Numeric,0,Directors' Compensation,D_RIC.TXT
+EXPBLDG,Numeric,0,Occupancy and Equipment Expense,D_RIC.TXT
+EXPSERV,Numeric,0,Purchased Services,D_RIC.TXT
+EXPDP,Numeric,0,Data Processing,D_RIC.TXT
+EXPCOMP,Numeric,0,Compensation,D_RIC.TXT
+EXPFCSIC,Numeric,0,Farm Credit System Insurance Corp. premium expense,D_RIC.TXT
+OEXP,Numeric,0,Other Operating Expenses,D_RIC.TXT
+OPEREXP,Numeric,0,Total Operating Expenses,D_RIC.TXT
+DIST,Numeric,0,District Code,D_RIC1.TXT
+ASSOC,Numeric,0,Association Code ,D_RIC1.TXT
+MONTH,Numeric,0,Month of Report,D_RIC1.TXT
+YEAR,Numeric,0,Year of Report,D_RIC1.TXT
+UNINUM,Numeric,0,"System, District, and Association  codes concatenated",D_RIC1.TXT
+EXPFINASS,Numeric,0,Financial Assistance Provided,D_RIC1.TXT
+EXPFACDT,Numeric,0,Financial Assistance Corporation Debt Expense,D_RIC1.TXT
+EXPACQPROP,Numeric,0,Other Property Owned Expense,D_RIC1.TXT
+MISCONONINTEXP,Numeric,0,Miscellaneous Other Noninterest  Expense,D_RIC1.TXT
+ONONINTEXP,Numeric,0,Total Other Noninterest Expense,D_RIC1.TXT
+DIST,Numeric,0,District Code,D_RID.TXT
+ASSOC,Numeric,0,Association Code,D_RID.TXT
+MONTH,Numeric,0,Month of Report,D_RID.TXT
+YEAR,Numeric,0,Year of Report,D_RID.TXT
+UNINUM,Numeric,0,"System, District, and Association  codes concatenated",D_RID.TXT
+CAP_CODE,Numeric,0,Capital Stock Code: ,D_RID.TXT
+,,10,Beginning balance,D_RID.TXT
+,,25,Prior Period & Accounting Adjustments,D_RID.TXT
+,,35,Net Income,D_RID.TXT
+,,45,Other Comprehensive Income,D_RID.TXT
+,,80,Patronage Distributions,D_RID.TXT
+,,70,Dividends,D_RID.TXT
+,,75,Stock Issued 85  Stock Retired 95  Paid-in Capital Adjustments,D_RID.TXT
+,,105,Allocated Equity Retired,D_RID.TXT
+,,120,Other,D_RID.TXT
+,,130,Ending balance,D_RID.TXT
+CapStkPurch,Numeric,0,Capital Stock: Purchased,D_RID.TXT
+CAPSTKALLOC,Numeric,0,Capital Stock: Allocated,D_RID.TXT
+PREFSTKPERP,Numeric,0,Perpetual Preferred Stock Noncumulative,D_RID.TXT
+PREFSTKO,Numeric,0,Perpetual Preferred Stock Other,D_RID.TXT
+PAIDIN,Numeric,0,Paid-In Capital,D_RID.TXT
+ALSUR,Numeric,0,Allocated Surplus: Qualified,D_RID.TXT
+NQASSubj2Retire,Numeric,0,Allocated Surplus: Nonqualified Subject To Retirement,D_RID.TXT
+NQASNotSubj2Retire,Numeric,0,Allocated Surplus: Nonqualified Not Subject To Retirement,D_RID.TXT
+UNRETERN,Numeric,0,Unallocated Retained Earnings,D_RID.TXT
+ACNOCOMINC,Numeric,0,Accumulated other comprehensive income (AOCI),D_RID.TXT
+TOTNW,Numeric,0,Total Net Worth,D_RID.TXT
+ASSOC,Numeric,0,Association Code  ,D_RIE1.TXT
+MONTH,Numeric,0,Month of Report             ,D_RIE1.TXT
+YEAR,Numeric,0,Year of Report             ,D_RIE1.TXT
+UNINUM,Numeric,0,"System, District, and Association codes concatenated",D_RIE1.TXT
+ACLCode,Numeric,0,"Code for Allowances for Credit Losses  10  Allowances for Credit Losses, beginning of period.",D_RIE1.TXT
+,,20,Net increase (or decrease (-)) resulting from provision for credit losses (current period) 30  Less: Charge-offs:,D_RIE1.TXT
+,,40,Less: Write-downs arising from transfer of financial assets 50  Recoveries,D_RIE1.TXT
+,,60,"Other 70  Allowances for credit losses, end of period",D_RIE1.TXT
+ACLLoanLease,Numeric,0,"Loans,Leases, etc. (1)",D_RIE1.TXT
+ACLHTMDebtSec,Numeric,0,Held-to-Maturity Debt Securities  ,D_RIE1.TXT
+ACLAFSDebtSec,Numeric,0,Available-for-Sale Debt Securities,D_RIE1.TXT
+(1),includes,"loans,","sales contracts, notes, and leases",D_RIE1.TXT
+SYSTEM,Numeric,0,System Code,D_RIE2.TXT
+DIST,Numeric,0,District Code,D_RIE2.TXT
+ASSOC,Numeric,0,Association Code,D_RIE2.TXT
+MONTH,Numeric,0,Month of Report,D_RIE2.TXT
+YEAR,Numeric,0,Year of Report,D_RIE2.TXT
+UNINUM,Numeric,0,"System, District, Association  codes concatenated",D_RIE2.TXT
+ALLNALLOSSBBAL,Numeric,0,"Allowance for credit losses on loans, etc. beginning of period",D_RIE2.TXT
+PROVLNS,Numeric,0,Net Increase or Decrease from Provision for Loan Loss,D_RIE2.TXT
+CHGOFFLNS,Numeric,0,Loans Charged Off,D_RIE2.TXT
+LNSLOSSREV,Numeric,0,"Recoveries for credit losses on loans, etc.",D_RIE2.TXT
+OTHADDSSUBS,Numeric,0,"Other allowance for credit losses on Loans,etc.",D_RIE2.TXT
+ALLNLOSS,Numeric,0,"Allowance for credit losses on loans, etc. end of period",D_RIE2.TXT
+CHGOFFRE,Numeric,0,Loans Charged Off -  Production Agriculture: Real estate mortgage,D_RIE2.TXT
+CHGOFFPROINT,Numeric,0,Loans Charged Off -  Production Agriculture: production and intermediate term,D_RIE2.TXT
+CHGOFFAGBUS,Numeric,0,Loans Charged Off - Agribusiness,D_RIE2.TXT
+CHGOFFCOMM,Numeric,0,Loans Charged Off - Communication,D_RIE2.TXT
+CHGOFFENERG,Numeric,0,Loans Charged Off - Energy,D_RIE2.TXT
+CHGOFFWATW,Numeric,0,Loans Charged Off - Water/waste disposal,D_RIE2.TXT
+CHGOFFRURRE,Numeric,0,Loans Charged Off - rural residence real estate,D_RIE2.TXT
+CHGOFFINTNL,Numeric,0,Loans Charged Off - International,D_RIE2.TXT
+CHGOFFLESRC,Numeric,0,Loans Charged Off - Lease receivables,D_RIE2.TXT
+RECRE,Numeric,0,Recoveries -  Production Agriculture: Real estate mortgage,D_RIE2.TXT
+RECPROINT,Numeric,0,Recoveries -  Production Agriculture: production and intermediate term,D_RIE2.TXT
+RECAGBUS,Numeric,0,Recoveries - Agribusiness,D_RIE2.TXT
+RECCOMM,Numeric,0,Recoveries - Communication,D_RIE2.TXT
+RECENERG,Numeric,0,Recoveries - Energy,D_RIE2.TXT
+RECWATW,Numeric,0,Recoveries - Water/waste disposal,D_RIE2.TXT
+RECRURRE,Numeric,0,Recoveries - rural residence real estate,D_RIE2.TXT
+RECINTNL,Numeric,0,Recoveries - International,D_RIE2.TXT
+RECLESRC,Numeric,0,Recoveries - Lease receivables,D_RIE2.TXT
+CHGOFFDLN,Numeric,0,Charge-offs net of recoveries on direct loans to associations,D_RIE2.TXT
+CHGOFFLNOFI,Numeric,0,Charge-offs net of recoveries on discounted loans to OFIs,D_RIE2.TXT
+ALRE,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE:  Production Agriculture: Real estate mortgage loans,D_RIE2.TXT
+ALPROINT,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Production Agriculture: production and intermediate term loans,D_RIE2.TXT
+ALAGBUS,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Agribusiness loans,D_RIE2.TXT
+ALCOMM,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Communication loans,D_RIE2.TXT
+ALENERG,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Energy loans,D_RIE2.TXT
+ALWATW,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Water/waste disposal loans,D_RIE2.TXT
+ALRURRE,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: rural residence real estate loans,D_RIE2.TXT
+ALINTNL,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: International loans,D_RIE2.TXT
+ALLESRC,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Lease receivables loans,D_RIE2.TXT
+ALDLN,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Direct loans to associations (FCBs and ACBs only),D_RIE2.TXT
+ALLNOFI,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE:  Discounted loans to OFIs (FCBs and ACBs only),D_RIE2.TXT
+ALTYPTOTAL,Numeric,0,"ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Allowance for credit losses on loans, etc. end of period",D_RIE2.TXT
+CHGOFFOTH,Numeric,0,"Other loans, etc. charged off",D_RIE2.TXT
+RECOTH,Numeric,0,Other recoveries,D_RIE2.TXT
+ALOTH,Numeric,0,ALLOWANCE FOR CREDIT LOSSES BY LOAN TYPE: Other allowance,D_RIE2.TXT
